@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    font-size: 5vw;
+    font-weight: bold;
+    color: rgb(146, 9, 9);
+    background-color: rgb(203, 129, 18);
+    padding-bottom: 1rem;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 10vw;
+}
+.ges{
+    height: 20vh;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+.ges:hover{
+    opacity: 50%;
+    cursor:pointer;
+    border-color: rgb(188, 210, 108);
+}
+.counterBox{
+    display: flex;
+    justify-content: center; 
+}
+#c1_name, #c2_name{
+    color: rgb(27, 129, 27);
+    font-size: 4rem;
+}
+#counter1, #counter2{
+    color: rgb(165, 165, 14);
+    font-size: 3rem;
+}
+#box1{
+    padding-top: 10vh;
+}
+#box2{
+    padding-top: 10vh;
+    padding-left: 3vw;
+}
+#conState{
+    padding-top: 13vh;
+    margin-right: 4vw;
+    color: blue;
+    font-size: 3rem;
+}
+.compTurn{
+    font-size: 2rem;
+    color: tan;
+    display: flex;
+    justify-content: center;
+    padding-top: 4vh;
+}
+#stateDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+#statusName{
+    color: rgb(100, 96, 96);
+    font-size: 3rem;
+    padding-top: 1vh;
+}
+.status{
+    color:rgb(38, 130, 148);
+    font-size: 4rem;
+    padding-left: 2vw;
+}
+#reset{
+    display: flex;
+    justify-content: center;
+    padding-top: 7vh;
+}
+button{
+    background-color: rgb(159, 118, 68);
+    color: rgb(56, 40, 40);
+    font-size: 2rem;
+    padding: 4px;
+}
+#foot{
+    font-size: 3rem;
+    color: rgb(169, 197, 222);
+    padding-left: 4rem;
+    padding-top: 40vh;
+}
+#foot_head{
+    font-size: 4rem;
+    color:rgb(17, 84, 142);
+}
